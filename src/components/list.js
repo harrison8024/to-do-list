@@ -13,7 +13,7 @@ export default props => {
                 {item.title}
             </div>
             <div className="col s2 right-align">
-                <button className="btn red darken-2" onClick={()=>props.delete(index)}>Delete</button>
+                <button className="btn red darken-2" onClick={()=>props.delete(item._id)}>Delete</button>
             </div>
         </li>
     )});
